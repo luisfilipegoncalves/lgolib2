@@ -1,6 +1,11 @@
 import * as React from 'react';
+import styled from "styled-components";
+
+const ThingStyle = styled.div`
+  color: red;
+`;
 
 // Delete me
 export const Thing = () => {
-  return <div>the snozzberries taste like snozzberries</div>;
+  return <ThingStyle>the snozzberries taste like snozzberries</ThingStyle>;
 };
